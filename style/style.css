@@ -1,0 +1,13 @@
+html, body{margin: 0; padding: 0; height: 100%;}
+body{max-width: 340px; margin: 0 auto}
+h1{padding: 20px 0;}
+h2{text-align: center}
+ul{list-style: none; margin: 0; padding: 0 0 30px 0}
+li{border-bottom: 1px dashed #212121; line-height: 25px; padding: 7px 0}
+button{display: block; border: 1px solid #212121; border-radius: 5px; height: 25px; line-height: 25px; background-color: #c6dcee; font-size: 15px}
+button:hover{background-color: #aac5db}
+button.save-btn{margin: 30px auto 20px;}
+section{display: none; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);; position: absolute; top: 0; left: 0;}
+div{display: block; position: absolute; top: calc(20% - 20px); left: calc(50% - 150px); width: 300px; background-color: #ffffff; border: 1px solid #221122; border-radius: 5px}
+textarea{display: block; margin: 0 auto; resize: none; width: 80%; height: 100px; border: 1px solid #212121; border-radius: 5px; padding: 10px 6px; font-family: 'Avenir'}
+section.on{display: block;}
